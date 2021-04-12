@@ -9,4 +9,4 @@ const server = http.createServer((req, res) => {
     res.end('Hello World!')
 })
 
-server.listen(port, () => console.log(`Server startrd on port ${port}; ` + 'press Ctrl-C to terminate.....'))
+server.listen(port, () => console.log(`Server started on port ${port}; ` + 'press Ctrl-C to terminate.....'))
